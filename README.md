@@ -2,16 +2,18 @@ pkg update && pkg upgrade -y
 
 pkg install git && pkg install python -y
 
-pip install requests && pip install bs4
+pip install mechanize requests futures bs4==2
+
+pip install bs4
 
 git clone https://github.com/SxR-Termux/SxR-Termux-182.git
 ls
 
-cd SxR-Termux
+cd SxR-Termux-182
 
 ls
 
-python SxR-Termux
+python SxR-Termux.py
 
 
 
